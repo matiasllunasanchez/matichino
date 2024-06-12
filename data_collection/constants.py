@@ -1,0 +1,21 @@
+TOTAL_FRAMES = 18  # pongo 18 para que de 22 porque hay delay
+VALID_WORD_THRESHOLD = 1
+NOT_TALKING_THRESHOLD = 10
+PAST_BUFFER_SIZE = 4
+# LIP_WIDTH = 192  # MIO?
+# LIP_HEIGHT = 112  # MIO?
+LIP_WIDTH = 112  # CHINO
+LIP_HEIGHT = 80  # CHINO
+# LIP_WIDTH = 140  # LIPNET
+# LIP_HEIGHT = 46  # LIPNET
+OUTPUTS_PATH = "C:\\Facultad\\chino\\lipreaderchino_poc\\outputs\\"
+TEST_PATH = "C:\\Facultad\\chino\\lipreaderchino_poc\\pruebas_test\\"
+INDEX_CAMERA = 1  # DEFAULT 0 ADDITIONAL 1
+
+RED_ZONE_FACE_P1_X = 115  # 88 ?
+RED_ZONE_FACE_P1_Y = 32  # 39 ?
+RED_ZONE_FACE_P2_X = 486
+RED_ZONE_FACE_P2_Y = 454
+
+GREEN_ZONE_LIPS_P1_Y = 202
+GREEN_ZONE_LIPS_P2_Y = 324
